@@ -1,48 +1,7 @@
-.img1:hover {
-    opacity: 0.5;
-}
-
-.img2:hover {
-    opacity: 0.2;
-}
-
-.img3 {
-    opacity: 0.5;
-}
-
-.img3:hover {
-    opacity: 1;
-}
-
-a.botao{
-    padding: 15px;
-    background: green;
-    color: white;
-    text-decoration: none;
-    border-radius: 60px;
-
-}
-
-a.botao:hover{
-    opacity: 0.8;
-}
-
-.transparente{
+#gradiente{
+    width: 100%;
+    height: 300px;
     background: blue;
-    color: white;
-    padding: 40px;    
-}
-
-.transparente:hover{
-    opacity: 0.5;
-}
-
-
-.outra-page{
-    background: green;
-    color: white;
-    padding: 10px;
-    text-decoration: none;
-    border-radius: 60px;
-    float: right;
+    background-image: radial-gradient(red 50%, white 10%);
+    
 }

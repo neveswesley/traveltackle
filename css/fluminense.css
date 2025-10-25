@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.cabecalho {
+    background-color: #6e182c;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 30px;
+    padding: 0 1%;
+}
+
+.cabecalho a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11.8px;
+    text-decoration: none;
+}
+
+.ouvidoria {
+    padding-left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.direita {
+    padding-right: 270px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.icones-social {
+    display: flex;
+    gap: 5px;
+}
+
+.icones-social i {
+    font-size: 17px;
+}
+
+.segundo-cabecalho {
+    background-color: white;
+    padding: 0 1%;
+    height: 70px;
+    position: relative;
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    overflow: visible;
+}
+
+.nome-site {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 7%;
+    letter-spacing: 3px;
+    flex-shrink: 0;
+}
+
+.nome-site a {
+    font-size: 35px;
+    color: #706f6f;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+}
+
+#fluminense {
+    font-weight: bold;
+}
+
+#fc {
+    font-weight: 400;
+}
+
+.logo {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+
+.logo img {
+    width: auto;
+    height: 100px;
+}
+
+.patrocinios {
+    display: flex;
+    align-items: center;
+    margin-right: 10%;
+    gap: 10px;
+}
+
+.patrocinios img {}
+
+.patrocinios #umbro {
+    width: auto;
+    height: 40px;
+}
+
+.patrocinios #superbet {
+    width: auto;
+    height: 90px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    margin-left: 37%;
+}
+
+input[type="search"] {
+    width: 190px;
+    height: 35px;
+    border: solid 1px #ccc;
+    outline: none;
+}
+
+input {
+    padding: 10px 15px;
+    border: none;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+
+input[type="search"]::placeholder {
+    color: #ccc;
+    font-size: 15px;
+}
+
+input[type="search"]:focus {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.main-menu {
+    padding: 1%;
+    background-color: #01633d;
+    display: flex;
+    justify-content: center;
+}
+
+
+.main-menu a {
+    color: white;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    align-items: center;
+}
+
+.menu-options li {
+    display: inline-block;
+}
+
+
+.menu-options{
+    display: flex;
+    gap: 13px;
+    list-style: none;
+    align-items: center;
+}
