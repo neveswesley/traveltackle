@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 * {
     margin: 0;
@@ -21,7 +22,7 @@ body {
 
 .cabecalho a {
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 11.8px;
     text-decoration: none;
 }
@@ -159,7 +160,7 @@ input[type="search"]:focus {
 .dropbtn {
     color: white;
     text-decoration: none;
-    font-family: "Poppins", sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 13.2px;
     align-items: center;
 }
@@ -212,4 +213,96 @@ li.dropdown {
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+.contents {
+    max-width: 1200px;
+    margin: 40px auto;
+    margin-top: 0;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+}
+
+.main-news {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.main-news img {
+    width: 100%;
+    height: 110%;
+    object-fit: cover;
+}
+
+.main-news-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    background: linear-gradient(rgba(0, 0, 0, 0.8));
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+}
+
+.main-news-text h2 {
+    font-size: 50px;
+    margin-bottom: -10px;
+}
+
+.main-news-text p {
+    font-size: 22px;
+    margin: 0;
+}
+
+.side-news {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 420px;
+}
+
+.side-news img {
+    width: auto;
+    width: 120px;
+}
+
+.news-item {
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+    border-bottom: 2px solid #ccc;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+
+}
+
+.news-item-text {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    line-height: 1.2;
+}
+
+.news-item-text h2 {
+    font-size: 0.9rem;
+    color: black;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Open Sans", sans-serif;
+}
+
+.news-item-text a {
+    font-size: 1rem;
+    color: #01633d;
+    margin: 0;
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
 }
