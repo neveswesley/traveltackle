@@ -153,6 +153,7 @@ input[type="search"]:focus {
     display: flex;
     justify-content: center;
     border-bottom: solid 1px black;
+    position: relative;
 }
 
 
@@ -180,25 +181,22 @@ input[type="search"]:focus {
 }
 
 li.dropdown {
-    display: inline-block;
+    display: inline-flex;
     position: relative;
     padding: 0;
 }
 
 .dropdown-content {
     position: absolute;
-    background-color: white;
-    width: 250px;
-    max-height: 400px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    overflow-y: auto;
-    display: none;
-    padding: 0px;
-    margin: 0;
-    align-items: center;
-    z-index: 100;
     top: 100%;
     left: 0;
+    display: none;
+    width: 250px;
+    max-height: 400px;
+    overflow: scroll;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    z-index: 1000;
 }
 
 .dropdown-content a {
@@ -289,7 +287,7 @@ li.dropdown {
     line-height: 1.2;
 }
 
-.news-item-text h2 {
+.news-item-text h4 {
     font-size: 0.9rem;
     color: black;
     margin: 0;
